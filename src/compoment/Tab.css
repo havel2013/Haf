@@ -1,0 +1,14 @@
+#tabs {
+    display: flex;
+    color: black;
+    cursor: pointer;
+  }
+  .tab {
+    text-align: center;
+    padding: 15px;
+    flex: 1;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+  }
