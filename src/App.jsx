@@ -13,7 +13,7 @@ function App() {
   const [result, setResult] = useState('')
 
   useEffect(() => {
-    fetch('https:api.frankfurter.app/latest')
+    fetch('https://api.frankfurter.app/latest')
     .then(res => res.json())
     .then(data => setRates(data.rates))
     .catch(console.error);
